@@ -1,0 +1,14 @@
+I started by going into the interactive shell of many_cars by writing,
+" SQLite3 many_cars ".
+
+Then i updated all the red Chevrolet cars whose license number ends with "5" by writing,
+" UPDATE cars SET Color='Pink' WHERE Color='Red' AND Make='Chevrolet' AND LicenseNumber LIKE '%5'; ".
+
+Then i created a text file called pink-chevies.txt by writing,
+" .once pink-chevies.txt ".
+Now i copied all the Pink chevies in the same order as task 1 to this .txt file by writing,
+"SELECT LicenseNumber,Make,Color FROM cars WHERE Color='Pink' AND Make='Chevrolet'"
+followed by writing this to order the LicenseNumber as task 1,
+" ORDER BY LicenseNumber; ".
+
+I now have a pink-chevies.txt file containg all the Pink Chevrolets.
