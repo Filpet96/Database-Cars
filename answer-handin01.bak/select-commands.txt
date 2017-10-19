@@ -1,7 +1,0 @@
-Started by creating "silver-fords.txt" from writing ".once silver-fords.txt" inside the " SQLITE3 many_cars" interactive shell.
-
-Then i wrote
-" SELECT LicenseNumber,Make,Color FROM cars WHERE Color='Silver' AND Make='Ford' "
-" ORDER BY LicenseNumber; "
-
-This produces a list of all fords with the color silver in LicenseNumber order with the column order LicenseNumber,Make,Color.
